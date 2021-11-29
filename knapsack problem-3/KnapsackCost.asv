@@ -1,0 +1,9 @@
+function z=KnapsackCost(x,model)
+%objective function
+    v=model.v;
+    w=model.w;
+    W=model.W;
+     
+   Violation=max(sum(
+end
+
